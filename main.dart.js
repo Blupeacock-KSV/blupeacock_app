@@ -84277,31 +84277,30 @@ q.B(0,p,o).da("primaryColor",s)
 q.B(0,p,o).da("secondaryColor",r)}},
 bg0(){var s=this
 if(s.at!=null&&s.ax!=null)s.t(new A.aWk(s))},
-bel(a,b){var s,r,q=this,p=q.Rk(a),o=q.Rk(b),n=p.length===0?null:p,m=o.length===0?null:o
-$.C=A.m1(n,B.aI)
-$.cl=A.m1(m,B.cI)
-m=q.gP()
-n=m.B(0,$.Dv().gX(),t.TW)
-n.zN(0,new A.aWf().$1(A.cg.prototype.gS.call(n,0)))
-s=q.CW
-q.t(new A.aWg(q))
-n=q.a
-r=n.w
-if(r!=null||n.y!=null){if(s)if(!q.w){n=n.x
-if(n!=null)n.$0()}else{n=q.ch
-if(n!=null&&q.ay!=null){r.toString
-m=q.ay
-m.toString
-r.$4(n,m,p,o)}}n=q.a.y
-if(n!=null)n.$2(p,o)}else{if(s)m.B(0,$.eY().gX(),t.sN).Zt(A.D(["logoBytes",q.ch,"logo_file",q.ay,"detectedPrimaryColor",p,"detectedSecondaryColor",o],t.N,t.z))
-n=q.a.y
-if(n!=null)n.$2(p,o)
-else{n=$.eY().gX()
-r=t.sN
-m.B(0,n,r).da("primaryColor",p)
-m.B(0,n,r).da("secondaryColor",o)}}n=q.c
-n.toString
-A.by(n,"Theme colours applied successfully!",B.bt)},
+bel(a,b){var s,r,q,p,o=this,n=o.Rk(a),m=o.Rk(b),l=n.length===0?null:n,k=m.length===0?null:m
+$.C=A.m1(l,B.aI)
+$.cl=A.m1(k,B.cI)
+k=o.gP()
+l=k.B(0,$.Dv().gX(),t.TW)
+l.zN(0,new A.aWf().$1(A.cg.prototype.gS.call(l,0)))
+s=o.CW
+r=o.ch
+q=o.ay
+o.t(new A.aWg(o))
+l=o.a
+p=l.w
+if(p!=null||l.y!=null){if(s)if(!o.w){l=l.x
+if(l!=null)l.$0()}else if(r!=null&&q!=null)p.$4(r,q,n,m)
+l=o.a.y
+if(l!=null)l.$2(n,m)}else{if(s)k.B(0,$.eY().gX(),t.sN).Zt(A.D(["logoBytes",r,"logo_file",q,"detectedPrimaryColor",n,"detectedSecondaryColor",m],t.N,t.z))
+l=o.a.y
+if(l!=null)l.$2(n,m)
+else{l=$.eY().gX()
+p=t.sN
+k.B(0,l,p).da("primaryColor",n)
+k.B(0,l,p).da("secondaryColor",m)}}l=o.c
+l.toString
+A.by(l,"Theme colours applied successfully!",B.bt)},
 L(a){var s,r,q,p,o,n,m,l,k=this,j=null
 if(k.w)return new A.a0D(k.a.z,k.aVS(),k.y,k.z,k.at,k.ax,k.gasr(),k.gbfj(),k.gbfl(),k.gbg_(),new A.aWu(k),new A.aWv(k),j)
 s=k.a.z?k.gasr():j
